@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="main-container">
+        <div id="background-container">
+            <label id="credits">Photo by <a href="https://unsplash.com/@kommumikation?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mika Baumeister</a> on <a href="https://unsplash.com/photos/blue-and-black-can-on-black-surface-vorH-CF_SZI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </label>
+        </div>
+
+        <div id="form-container">
+            <form action="#">
+                <div id="info-container">
+                    <label for="info-text" id="info-text"> Log in to escape the Matrix<br>(I'm kidding, this form leads to nowhere)</label>
+                </div>
+                <div id="input-container">
+                    <label id="comment">Choose your pill below</label>
+
+                    <div class="container-group" id="name-container">
+                        <div class="input-fields" id="firstname-container">
+                            <label for="firstname" id="first-name">First Name</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="John">
+                        </div>
+                        
+                        <div class="input-fields" id="lastname-container">
+                            <label for="lastname" id="last-name">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Doe">
+                        </div>
+                    </div>
+                    
+                    <div class="container-group" id="contact-container">
+                        <div class="input-fields" id="email-container">
+                            <label for="email" id="emailid">Email</label>
+                            <input type="email" name="email" id="email" placeholder="abc@example.com">
+                        </div>
+                        
+                        <div class="input-fields" id="phone-container">
+                            <label for="phone" id="phoneno">Phone Number</label>
+                            <input type="number" name="phone" id="phone" min="6666666666" max="9999999999" placeholder="+91">
+                        </div>
+                    </div>
+                    
+                    <div class="container-group" id="password-validation-container">
+                        <div class="input-fields" id="pass-container">
+                            <label for="pass" id="password">Password</label>
+                            <input type="password" name="pass" id="pass">
+                        </div>
+                        
+                        <div class="input-fields" id="cpass-container">
+                            <label for="cpass" id="confirm-pass">Confirm Password</label>
+                            <input type="password" name="cpass" id="cpass">
+                        </div>
+                    </div>
+                </div>
+                <div id="button-container">
+                    <button type="submit" id="submit-button">Create Account</button>
+                    
+                    <label>Already have an account? <a href='' id="specialhref"><u>Log in</u></a></label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
